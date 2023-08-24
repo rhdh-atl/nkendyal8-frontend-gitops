@@ -1,0 +1,15 @@
+app:
+  name: nkendyal8-poi-map-app
+  namespace: nkendyal8
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/nkendyal8-frontend
+  org: rhdh-atl
+  name: nkendyal8-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: nkendyal8/poi-map-app
+  tag: latest
